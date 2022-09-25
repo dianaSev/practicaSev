@@ -1,0 +1,19 @@
+SMAP
+calcularvel_jsp.java
+JSP
+*S JSP
+*F
++ 0 calcularvel.jsp
+calcularvel.jsp
+*L
+5,38:44
+43,8:83
+50,3:91
+53,2:94,3
+55:100
+56:101,3
+57:104
+58:105,5
+59:110,3
+60,20:113
+*E

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Ejercicio Formulario Web con HTML5 Y JSP </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-----------------------------BOOTSTRAP----------------------------->
+                <!--Icono-->
+		<link rel="Icon" type="img/png" href="img/logoicono.png">
+		<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+		<!-- Slick -->
+		<link type="text/css" rel="stylesheet" href="css/slick.css"/>
+		<link type="text/css" rel="stylesheet" href="css/slick-theme.css"/>
+		<!-- nouislider -->
+		<link type="text/css" rel="stylesheet" href="css/nouislider.min.css"/>
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<!-- Custom stlylesheet -->
+		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+		<!--Ventanas emergentes-->
+		<link rel="stylesheet" type="text/css" href="css/ventanas.css">
+<!-----------------------------/BOOTSTRAP----------------------------->
+    
+    
+    
+    
+    
+    </head>
+    <body style="background-color: #ef233c">
+        
+        <!-- iNUCIA COTAINER PRINCIPAL-->
+        <div class="container ">
+            
+            <div class ="jumbotron">
+                <center>
+                    <h2>Ejercicio Fomulario uacm sevilla </h2>
+                    <div class="thumbnail"> <!-- icaja con vordes negros -->
+                        <h3><i>Captura datos correctamente </i></h3>
+                        <!--Maquetacion construir una fila =row y 3 columnas  col -->
+                        <div class="row">
+                            <div class="col-sm-4"><!-- Inicia col 1-->
+                                <br><br><br><br>
+                                <img src="img/logo3.png "class="img-responsive" alt="logo"/>
+                            </div><!--/Termina columna 1 -->
+                            
+                            <div class="col-sm-4"><!-- Inicia col 2-->
+                                <form method ="POST" action="registro.jsp">
+                                    <div class="form-group"> <!--Inicia agrupaciones de controles de formularioa  -->
+                                        <h4> Matricula alum</h4>
+                                        <input type="number" name ="matri" class="form-control" placeholder="Matricula" required/>
+                                        <h4>Nombre Alumno :</h4> 
+                                        <input type="text" name ="nombre" class="form-control" placeholder="Nombre" required/>
+                                        <h4>Carrera del alumno  :</h4> 
+                                        <input type="text" name ="carrera" class="form-control" placeholder="Carrera alumno " required/>
+                                        <h4>Edad Alumno :</h4> 
+                                        <input type="number" name ="edad"  min="1" max="100" class="form-control" placeholder="Edad " required/>
+                                        <h4>Telefono Alumno :</h4> 
+                                        <input type="tel" name ="telefono" class="form-control" placeholder="Telefono" required/>
+                                        <h4>Correo Alumno :</h4> 
+                                        <input type="email" name ="correo" class="form-control" placeholder="Correo" required/>
+                                        <h4>Fecha de nacimiento Alumno :</h4> 
+                                        <input type="date" name ="fecha" class="form-control"  required/>
+                                        <br><br>
+                                        <input type="submit" class="btn btn-primary btn-block" value="Ingrese de nuevo alumno "/>
+                                        <br>
+                                        <input type="reset" class="btn btn-danger" value="Limpiar datos"/>
+                                        
+                                        
+                                    
+                                    
+                                    </div><!--/Termina agrupaciones de controles de formulario -->
+                                </form>
+                            </div><!--/Termina columna 4 -->
+                            
+                            <div class="col-sm-4"><!-- Inicia col 1-->
+                                <br><br><br><br><br><br>
+                                <img src="img/light1.jpg "class="img-responsive" alt="carr1">
+                            </div><!--/Termina columna 1 -->
+                            
+                           
+                               
+                           
+                            
+                        </div>
+                           
+                        
+                        
+                    </div><!-- /caja con bordes negros-->
+                </center>
+                
+            </div>
+        </div>
+        
+        
+        <!-- TERMINA  COTAINER PRINCIPAL-->
+        
+        <div>TODO write content</div>
+        <!-- js Plugins -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/nouislider.min.js"></script>
+		<script src="js/jquery.zoom.min.js"></script>
+		<script src="js/main.js"></script>
+        <script type="text/javascript" src="js/municipios.js"></script>
+    	<script type="text/javascript" src="js/select_estados.js"></script>
+<!-- /js Plugins -->
+
+        
+    </body>
+</html>
